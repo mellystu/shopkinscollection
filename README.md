@@ -3,7 +3,10 @@ My daughter is learning to program by writing an application
 to keep track of her Shopkin collection. This web version uses 
 the following:
 
-* Ruby 2.3.1, Rails 4.2.7
+* Ruby 2.3.1, Rails 4.2.7, Postgres 8.2.4
+
+Please note: There is a change in ActiveRecord that doesn't allow us to use anything less than 9.1 for 
+Postgres for Rails 5, and for our hosting, we are stuck at a lower version, so we are stuck on Rails 4. 
 
 
 This application will keep track of the following Shopkin information
