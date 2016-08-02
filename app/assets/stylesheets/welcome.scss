@@ -1,3 +1,23 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.main_page {
+  background-color: deeppink;
+  color: white;
+}
+
+.main_nav * {
+  display: inline;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+header {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
